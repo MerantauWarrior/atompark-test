@@ -1,0 +1,24 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .cs-item{
+        margin: 15px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .wrapper{
+        padding-top: 50px;
+    }
+    .bg-img{
+        display: none;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait){
+    .btn-cs,
+    .cs-item{
+        margin: 15px 0;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape){
+    .cs-item{
+        margin: 15px;
+    }
+}

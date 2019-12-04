@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/comfortaa-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DidactGothic-Regular';
+    src: url('../fonts/DidactGothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    min-height: 100vh;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.wrapper{
+    position: relative;
+    padding: 121px 15px 50px 15px;
+}
+.bg-img{
+    position: absolute;
+    z-index: -1;
+}
+.bg-img--first{
+    top: 0;
+    left: 0;
+}
+.bg-img--second{
+    top: 55px;
+    right: 0;
+}
+.cs-text-one,
+.cs-text-two,
+.cs-text-three{
+    text-align: center;
+}
+.cs-text-one,
+.cs-text-two{
+    font-family: 'Comfortaa-Regular',sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+}
+.cs-text-one{
+    margin-bottom: 71px;
+    color: #333333;
+}
+.cs-text-two{
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    color: #1062AA;
+}
+.cs-text-three{
+    margin-bottom: 44px;
+    font-family: 'DidactGothic-Regular',sans-serif;
+    font-size: 24px;
+    line-height: 31px;
+    color: #333333;
+}
+
+.cs-btns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.btn-cs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 263px;
+    height: 50px;
+    margin: 0 15px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #807E7E;
+    text-align: center;
+    border: 2px solid #1062AA;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+.btn-cs:hover,
+.btn-cs--filled{
+    color: #ffffff;
+    background-color: #1062AA;
+}
+.cs-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 68px;
+}
+.cs-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 165px;
+    margin: 0 15px;
+}
+.cs-item__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+}
+.cs-item__title{
+    margin-top: 20px;
+    font-family: 'DidactGothic-Regular',sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+}
